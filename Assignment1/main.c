@@ -77,7 +77,7 @@ int main() {
     char combined[100];
     snprintf(combined, sizeof(combined), "%sCE-ESY", name);
 
-    // تجربة حجمين
+    
     runTest(SMALL_SIZE, combined);   
     runTest(LARGE_SIZE, combined);   
 
